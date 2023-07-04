@@ -1,11 +1,7 @@
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-let button = document.getElementsByClassName("meowbutton");
-
-button.addEventListener("click"), function(){
-    document.getElementsByClassName("hiddenmeow").style.margintop = "-90vw"
-}
-
-const wait2s = async () => {
-    await delay(2000);
+async function buttonAction() {
+    document.querySelector(".hiddenmeow").style.margin = "10px 0 0 0"
+    await delay(1250);
+    document.querySelector(".hiddenmeow").style.margin = "125vh 0 0 0"
 }

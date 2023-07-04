@@ -4,7 +4,7 @@ html {
     background-color: #131313; 
     color: #efefef;
     font-family: 'Roboto Slab', serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .link {
@@ -39,4 +39,5 @@ button {
 
 .hiddenmeow {
     margin-top: 125vh;
+    transition: 1s ease-in-out;
 }
