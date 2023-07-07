@@ -29,14 +29,6 @@ button {
     border: rgba(255, 255, 255, 0.95);
 }
 
-.button {
-    padding: 8px 20px;
-    border-radius: 100px;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #000;
-    border: rgba(255, 255, 255, 0.95);
-}
-
 .hiddenmeow {
     margin-top: 125vh;
     transition: 1s ease-in-out;
